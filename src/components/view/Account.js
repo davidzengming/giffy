@@ -48,11 +48,12 @@ class Account extends Component {
     render() {
         return(
             <div>
-                <h2> Sign up </h2>
+                <h2> Account </h2>
                 <input onChange={this.updateUserInput} id="username" type="text" placeholder="username" /><br />
                 <input onChange={this.updateUserInput} id="password" type="text" placeholder="password" /><br />
-                <button onClick={this.submitRegistration}>Join now</button>
-                <button onClick={this.submitLoginCredentials}>Sign in</button>
+                <button className="button small" style={{width:30+'%', marginTop:12}} onClick={this.submitLoginCredentials}>Sign in</button>
+                <button className="button small" style={{width:30+'%', marginTop:12}} onClick={this.submitRegistration}>Join now</button>
+                
             </div>
         );
     }
