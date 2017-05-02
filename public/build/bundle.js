@@ -15018,7 +15018,7 @@ var MapNavigation = function (_Component) {
                 null,
                 _react2.default.createElement(_view.Map, {
                     containerElement: _react2.default.createElement('div', { style: { height: '100%' } }),
-                    mapElement: _react2.default.createElement('div', { style: { minHeight: 800, height: '100%', width: '100%' } }),
+                    mapElement: _react2.default.createElement('div', { style: { minHeight: 1080, height: '100%', width: '100%' } }),
                     center: this.props.post.currentLocation,
                     zoom: 14,
                     mapMoved: this.setNewLocation })
