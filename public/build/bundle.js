@@ -15018,7 +15018,7 @@ var MapNavigation = function (_Component) {
                 null,
                 _react2.default.createElement(_view.Map, {
                     containerElement: _react2.default.createElement('div', { style: { height: '100%' } }),
-                    mapElement: _react2.default.createElement('div', { style: { minHeight: 1080, height: '100%', width: '100%' } }),
+                    mapElement: _react2.default.createElement('div', { style: { minHeight: 800, height: '100%', width: '100%' } }),
                     center: this.props.post.currentLocation,
                     zoom: 14,
                     mapMoved: this.setNewLocation })
@@ -15972,8 +15972,8 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 var initialState = {
     currentLocation: {
-        lat: 40.7504753,
-        lng: -73.9932668
+        lat: 37.4419,
+        lng: -122.1430
     },
     list: null
 };

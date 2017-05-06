@@ -18,7 +18,7 @@ class MapNavigation extends Component {
             <div>
                 <Map
                     containerElement={<div style={{height:'100%'}} />}
-                    mapElement={<div style={{minHeight: 1080, height:'100%', width:'100%'}} />}
+                    mapElement={<div style={{minHeight: 800, height:'100%', width:'100%'}} />}
                     center={this.props.post.currentLocation}
                     zoom={14}
                     mapMoved={this.setNewLocation} />

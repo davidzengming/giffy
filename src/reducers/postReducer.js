@@ -2,8 +2,8 @@ import constants from '../constants';
 
 var initialState = {
     currentLocation: {
-        lat: 40.7504753,
-        lng: -73.9932668
+        lat: 37.4419,
+        lng: -122.1430
     },
     list: null
 }
