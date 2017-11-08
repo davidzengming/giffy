@@ -40,7 +40,7 @@ class Map extends Component {
                     <Marker {...marker} />
                 ))}
             </GoogleMap>
-        )
+        );
     }
 }
 
